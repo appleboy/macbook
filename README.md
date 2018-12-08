@@ -56,9 +56,9 @@ See the following screenshots:
 
 You can see the [reference](https://www.wikihow.com/Change-the-Keyboard-Shortcut-for-a-Mac-Screenshot).
 
-<img src="images/shortcut_01.png">
+<img src="images/shortcut_001.png">
 
-<img src="images/shortcut_02.png">
+<img src="images/shortcut_002.png">
 
 ### Change the Shell in Mac OS X Terminal
 
