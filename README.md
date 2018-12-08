@@ -51,3 +51,15 @@ $ brew cask install font-fira-code
 See the following screenshots:
 
 <img src="./images/extension.png">
+
+### How to change the Keyboard Shortcut
+
+You can see the [reference](https://www.wikihow.com/Change-the-Keyboard-Shortcut-for-a-Mac-Screenshot).
+
+<img src="images/shortcut_01.png">
+
+<img src="images/shortcut_02.png">
+
+### Change the Shell in Mac OS X Terminal
+
+You can see the [reference](http://osxdaily.com/2012/03/21/change-shell-mac-os-x/).
