@@ -58,6 +58,7 @@ screenshot: see the `!=` symbol
 - [Google Chrome](https://www.google.com/chrome/)
 - [Telegram Messenger](https://telegram.org/)
 - [iTerm2 is a replacement for Terminal and the successor to iTerm](https://www.iterm2.com/downloads.html)
+- [Evernote skitch](https://evernote.com/intl/en/products/skitch)
 
 ## Tips
 
