@@ -50,7 +50,7 @@ $ brew cask install font-fira-code
 
 See the following screenshots:
 
-<img src="./images/extension.png">
+<img src="./images/finder.png">
 
 ### How to change the Keyboard Shortcut
 
