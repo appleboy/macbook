@@ -63,3 +63,9 @@ You can see the [reference](https://www.wikihow.com/Change-the-Keyboard-Shortcut
 ### Change the Shell in Mac OS X Terminal
 
 You can see the [reference](http://osxdaily.com/2012/03/21/change-shell-mac-os-x/).
+
+open the `terminal` app and select the `preferences`
+
+<img src="./images/terminal_001.png">
+
+<img src="./images/terminal_002.png">
