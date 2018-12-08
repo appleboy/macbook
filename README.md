@@ -41,6 +41,10 @@ $ brew tap caskroom/fonts
 $ brew cask install font-fira-code
 ```
 
+screenshot: see the `!=` symbol
+
+<img src="./images/firacode.png">
+
 ## IDE
 
 - [GraphQL IDE for better development workflows](https://github.com/prisma/graphql-playground)
