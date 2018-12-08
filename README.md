@@ -24,13 +24,20 @@ Add bash-completion to your `~/.bash_profile` or `.extra`
 $ mkdir ~/Desktop/screenshots/
 ```
 
-Copy and paste this command to the terminal window:
+2. Copy and paste this command to the terminal window:
 
 ```
 $ defaults write com.apple.screencapture location ~/Desktop/screenshots/
 ```
 
-2.
+### Monospaced font with programming ligatures: [FiraCode](https://github.com/tonsky/FiraCode)
+
+Use [brew](http://brew.sh/) and [cask](https://caskroom.github.io/): Not officially supported, might install outdated version
+
+```
+$ brew tap caskroom/fonts
+$ brew cask install font-fira-code
+```
 
 ## IDE
 
