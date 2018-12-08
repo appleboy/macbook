@@ -36,3 +36,11 @@ $ defaults write com.apple.screencapture location ~/Desktop/screenshots/
 
 - [GraphQL IDE for better development workflows](https://github.com/prisma/graphql-playground)
 - [Visual Studio Code](https://code.visualstudio.com)
+
+## Tips
+
+### Show all filename extensions in `Finder`
+
+See the following screenshots:
+
+<img src="./images/extension.png">
