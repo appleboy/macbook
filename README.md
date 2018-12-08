@@ -1,6 +1,8 @@
-# macbook
+# Macbook tips
 
-Install package in my macbook
+Some tips and command for MacOS.
+
+<img src="./images/macos.png">
 
 ## Command
 
