@@ -76,7 +76,7 @@ See the following screenshots:
 
 <img src="./images/finder.png">
 
-### How to change the Keyboard Shortcut
+### How to change the ScreenShot Keyboard Shortcut
 
 You can see the [reference](https://www.wikihow.com/Change-the-Keyboard-Shortcut-for-a-Mac-Screenshot).
 
