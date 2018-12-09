@@ -45,6 +45,14 @@ screenshot: see the `!=` symbol
 
 <img src="./images/firacode.png">
 
+### Setting the Mac hostname or computer name from the terminal
+
+See the [reference](https://knowledge.autodesk.com/support/smoke/learn-explore/caas/sfdcarticles/sfdcarticles/Setting-the-Mac-hostname-or-computer-name-from-the-terminal.html). change the primary hostname of your Mac:
+
+```
+$ scutil --set HostName <new host name>
+```
+
 ## IDE
 
 - [GraphQL IDE for better development workflows](https://github.com/prisma/graphql-playground)
