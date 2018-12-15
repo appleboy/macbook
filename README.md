@@ -94,3 +94,14 @@ open the `terminal` app and select the `preferences`
 <img src="./images/terminal_001.png">
 
 <img src="./images/terminal_002.png">
+
+### Using a Windows PC Keyboard on Mac with Remapped Windows & ALT Keys
+
+See the [reference](http://osxdaily.com/2018/01/31/use-windows-pc-keyboard-mac-remap-option-command-keys/)
+
+<img src="./images/keyboard_01.png">
+
+1. Click the dropdown next to `OPTION Key` and select `Command`
+2. Click the dropdown next to `COMMAND Key` and select `Option`
+
+<img src="./images/keyboard_02.png">
