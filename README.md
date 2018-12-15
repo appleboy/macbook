@@ -101,7 +101,8 @@ See the [reference](http://osxdaily.com/2018/01/31/use-windows-pc-keyboard-mac-r
 
 <img src="./images/keyboard_01.png">
 
-1. Click the dropdown next to `OPTION Key` and select `Command`
-2. Click the dropdown next to `COMMAND Key` and select `Option`
+1. Select your windows keyboard.
+2. Click the dropdown next to `OPTION Key` and select `Command`
+3. Click the dropdown next to `COMMAND Key` and select `Option`
 
 <img src="./images/keyboard_02.png">
