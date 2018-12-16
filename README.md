@@ -69,6 +69,7 @@ $ scutil --set HostName <new host name>
 - [Evernote skitch](https://evernote.com/intl/en/products/skitch)
 - [MPlayer OSX Extended video player](https://github.com/sttz/MPlayer-OSX-Extended)
 - [Universal Database Tool: DBeaver Community](https://dbeaver.io/)
+- [Phiewer is the easiest and fastest way to view your images](https://phiewer.com/)
 
 ## Tips
 
