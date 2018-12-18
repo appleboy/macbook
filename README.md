@@ -108,3 +108,9 @@ See the [reference](http://osxdaily.com/2018/01/31/use-windows-pc-keyboard-mac-r
 3. Click the dropdown next to `COMMAND Key` and select `Option`
 
 <img src="./images/keyboard_02.png">
+
+### Tmux scrollback in terminal (iTerm2)
+
+You can copy my [.tmux.conf](https://github.com/appleboy/dotfiles/blob/5c6bd88915b6ba97c50ff9f6f7627d9ad1ff31d9/.tmux.conf#L1) config file and update the iTerm2 profile as following screenshot:
+
+<img src="./images/iterm2.png">
