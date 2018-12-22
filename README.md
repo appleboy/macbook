@@ -70,6 +70,7 @@ $ scutil --set HostName <new host name>
 - [MPlayer OSX Extended video player](https://github.com/sttz/MPlayer-OSX-Extended)
 - [Universal Database Tool: DBeaver Community](https://dbeaver.io/)
 - [Phiewer is the easiest and fastest way to view your images](https://phiewer.com/)
+- [FileZilla Client not only supports FTP, but also FTP over TLS (FTPS) and SFTP](https://filezilla-project.org/)
 
 ## Tips
 
