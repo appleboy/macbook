@@ -53,6 +53,18 @@ See the [reference](https://knowledge.autodesk.com/support/smoke/learn-explore/c
 $ scutil --set HostName <new host name>
 ```
 
+### Main font-bundle for sketch icon-font plugin
+
+* FontAwesome
+* Material Design Icons
+* Ion Icons
+* Simple Line Icons (@bohn002)
+* Ant Design Icons
+
+See the [detail](https://github.com/keremciu/font-bundles)
+
+<img src="images/font.png" />
+
 ## IDE
 
 - [GraphQL IDE for better development workflows](https://github.com/prisma/graphql-playground)
