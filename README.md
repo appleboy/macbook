@@ -85,6 +85,7 @@ See the [detail](https://github.com/keremciu/font-bundles)
 - [FileZilla Client not only supports FTP, but also FTP over TLS (FTPS) and SFTP](https://filezilla-project.org/)
 - [Project discussions: Slack](https://slack.com/)
 - [Postman](https://www.getpostman.com/downloads/)
+- [TablePlus - native app which helps you easily edit database data and structure](https://github.com/TablePlus/TablePlus)
 
 ## Tips
 
