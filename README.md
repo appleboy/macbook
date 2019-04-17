@@ -65,6 +65,12 @@ See the [detail](https://github.com/keremciu/font-bundles)
 
 <img src="images/font.png" />
 
+### [Install jq command](https://stedolan.github.io/jq/)
+
+jq is a lightweight and flexible command-line JSON processor. [Try it online](https://jqplay.org/).
+
+<img src="images/jq_command.png">
+
 ## IDE
 
 - [GraphQL IDE for better development workflows](https://github.com/prisma/graphql-playground)
