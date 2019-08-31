@@ -92,6 +92,7 @@ jq is a lightweight and flexible command-line JSON processor. [Try it online](ht
 - [Project discussions: Slack](https://slack.com/)
 - [Postman](https://www.getpostman.com/downloads/)
 - [TablePlus - native app which helps you easily edit database data and structure](https://github.com/TablePlus/TablePlus)
+- [Keka - the macOS file archiver](https://www.keka.io)
 
 ## Tips
 
