@@ -2,7 +2,7 @@
 
 Some tips and command for MacOS.
 
-<img src="./images/macos.png">
+![macos](./images/macos.png)
 
 ## Command
 
@@ -63,36 +63,36 @@ scutil --set HostName <new host name>
 
 See the [detail](https://github.com/keremciu/font-bundles)
 
-<img src="images/font.png" />
+![font](./images/font.png)
 
 ### [Install jq command](https://stedolan.github.io/jq/)
 
 jq is a lightweight and flexible command-line JSON processor. [Try it online](https://jqplay.org/).
 
-<img src="images/jq_command.png">
+![jq_command](./images/jq_command.png)
 
 ## IDE
 
-- [GraphQL IDE for better development workflows](https://github.com/prisma/graphql-playground)
-- [Visual Studio Code](https://code.visualstudio.com)
-- [SSH Tunnel Manager](https://www.tynsoe.org/v2/stm/)
-- [Elegant Facebook Messenger desktop app](https://github.com/sindresorhus/caprine)
-- [Discord App](https://discordapp.com/)
-- [Gitter is a chat and networking platform](https://gitter.im/)
-- [Docker for Mac](https://docs.docker.com/docker-for-mac/install/)
-- [Wechat in China](https://www.wechat.com/en/)
-- [Google Chrome](https://www.google.com/chrome/)
-- [Telegram Messenger](https://telegram.org/)
-- [iTerm2 is a replacement for Terminal and the successor to iTerm](https://www.iterm2.com/downloads.html)
-- [Evernote skitch](https://evernote.com/intl/en/products/skitch)
-- [MPlayer OSX Extended video player](https://github.com/sttz/MPlayer-OSX-Extended)
-- [Universal Database Tool: DBeaver Community](https://dbeaver.io/)
-- [Phiewer is the easiest and fastest way to view your images](https://phiewer.com/)
-- [FileZilla Client not only supports FTP, but also FTP over TLS (FTPS) and SFTP](https://filezilla-project.org/)
-- [Project discussions: Slack](https://slack.com/)
-- [Postman](https://www.getpostman.com/downloads/)
-- [TablePlus - native app which helps you easily edit database data and structure](https://github.com/TablePlus/TablePlus)
-- [Keka - the macOS file archiver](https://www.keka.io)
+* [GraphQL IDE for better development workflows](https://github.com/prisma/graphql-playground)
+* [Visual Studio Code](https://code.visualstudio.com)
+* [SSH Tunnel Manager](https://www.tynsoe.org/v2/stm/)
+* [Elegant Facebook Messenger desktop app](https://github.com/sindresorhus/caprine)
+* [Discord App](https://discordapp.com/)
+* [Gitter is a chat and networking platform](https://gitter.im/)
+* [Docker for Mac](https://docs.docker.com/docker-for-mac/install/)
+* [Wechat in China](https://www.wechat.com/en/)
+* [Google Chrome](https://www.google.com/chrome/)
+* [Telegram Messenger](https://telegram.org/)
+* [iTerm2 is a replacement for Terminal and the successor to iTerm](https://www.iterm2.com/downloads.html)
+* [Evernote skitch](https://evernote.com/intl/en/products/skitch)
+* [MPlayer OSX Extended video player](https://github.com/sttz/MPlayer-OSX-Extended)
+* [Universal Database Tool: DBeaver Community](https://dbeaver.io/)
+* [Phiewer is the easiest and fastest way to view your images](https://phiewer.com/)
+* [FileZilla Client not only supports FTP, but also FTP over TLS (FTPS) and SFTP](https://filezilla-project.org/)
+* [Project discussions: Slack](https://slack.com/)
+* [Postman](https://www.getpostman.com/downloads/)
+* [TablePlus - native app which helps you easily edit database data and structure](https://github.com/TablePlus/TablePlus)
+* [Keka - the macOS file archiver](https://www.keka.io)
 
 ## Tips
 
@@ -100,15 +100,15 @@ jq is a lightweight and flexible command-line JSON processor. [Try it online](ht
 
 See the following screenshots:
 
-<img src="./images/finder.png">
+![finder](./images/finder.png)
 
 ### How to change the ScreenShot Keyboard Shortcut
 
 You can see the [reference](https://www.wikihow.com/Change-the-Keyboard-Shortcut-for-a-Mac-Screenshot).
 
-<img src="images/shortcut_001.png">
+![shortcut_001](./images/shortcut_001.png)
 
-<img src="images/shortcut_002.png">
+![shortcut_002](./images/shortcut_002.png)
 
 ### Change the Shell in Mac OS X Terminal
 
@@ -116,24 +116,24 @@ You can see the [reference](http://osxdaily.com/2012/03/21/change-shell-mac-os-x
 
 open the `terminal` app and select the `preferences`
 
-<img src="./images/terminal_001.png">
+![terminal_001](./images/terminal_001.png)
 
-<img src="./images/terminal_002.png">
+![terminal_002](./images/terminal_002.png)
 
 ### Using a Windows PC Keyboard on Mac with Remapped Windows & ALT Keys
 
 See the [reference](http://osxdaily.com/2018/01/31/use-windows-pc-keyboard-mac-remap-option-command-keys/)
 
-<img src="./images/keyboard_01.png">
+![keyboard_01](./images/keyboard_01.png)
 
 1. Select your windows keyboard.
 2. Click the dropdown next to `OPTION Key` and select `Command`
 3. Click the dropdown next to `COMMAND Key` and select `Option`
 
-<img src="./images/keyboard_02.png">
+![keyboard_02](./images/keyboard_02.png)
 
 ### Tmux scrollback in terminal (iTerm2)
 
 You can copy my [.tmux.conf](https://github.com/appleboy/dotfiles/blob/5c6bd88915b6ba97c50ff9f6f7627d9ad1ff31d9/.tmux.conf#L1) config file and [update the profile of iTerm2](https://stackoverflow.com/questions/12865559/leaving-tmux-scrollback-in-terminal-iterm2) as following screenshot:
 
-<img src="./images/iterm2.png">
+![iterm2](./images/iterm2.png)
