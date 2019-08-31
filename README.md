@@ -8,13 +8,13 @@ Some tips and command for MacOS.
 
 ### [Install Bash git completion](https://github.com/bobthecow/git-flow-completion/wiki/Install-Bash-git-completion)
 
-```
-$ brew install git bash-completion
+```bash
+brew install git bash-completion
 ```
 
 Add bash-completion to your `~/.bash_profile` or `.extra`
 
-```
+```bash
 [ -f /usr/local/etc/bash_completion ] && . /usr/local/etc/bash_completion
 ```
 
@@ -22,35 +22,35 @@ Add bash-completion to your `~/.bash_profile` or `.extra`
 
 1. create new folder in `Desktop`
 
-```
-$ mkdir ~/Desktop/screenshots/
+```bash
+mkdir ~/Desktop/screenshots/
 ```
 
 2. Copy and paste this command to the terminal window:
 
-```
-$ defaults write com.apple.screencapture location ~/Desktop/screenshots/
+```bash
+defaults write com.apple.screencapture location ~/Desktop/screenshots/
 ```
 
 ### Monospaced font with programming ligatures: [FiraCode](https://github.com/tonsky/FiraCode)
 
 Use [brew](http://brew.sh/) and [cask](https://caskroom.github.io/): Not officially supported, might install outdated version
 
-```
-$ brew tap caskroom/fonts
-$ brew cask install font-fira-code
+```bash
+brew tap caskroom/fonts
+brew cask install font-fira-code
 ```
 
 screenshot: see the `!=` symbol
 
-<img src="./images/firacode.png">
+![firacode](./images/firacode.png)
 
 ### Setting the Mac hostname or computer name from the terminal
 
 See the [reference](https://knowledge.autodesk.com/support/smoke/learn-explore/caas/sfdcarticles/sfdcarticles/Setting-the-Mac-hostname-or-computer-name-from-the-terminal.html). change the primary hostname of your Mac:
 
-```
-$ scutil --set HostName <new host name>
+```bash
+scutil --set HostName <new host name>
 ```
 
 ### Main font-bundle for sketch icon-font plugin
