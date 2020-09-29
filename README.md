@@ -133,6 +133,14 @@ See the [reference](http://osxdaily.com/2018/01/31/use-windows-pc-keyboard-mac-r
 
 ![keyboard_02](./images/keyboard_02.png)
 
+### Change default shell in terminal (iTerm2)
+
+![iterm2](./images/iterm2-command.png)
+
+```sh
+chsh -s /bin/bash
+```
+
 ### Tmux scrollback in terminal (iTerm2)
 
 You can copy my [.tmux.conf](https://github.com/appleboy/dotfiles/blob/5c6bd88915b6ba97c50ff9f6f7627d9ad1ff31d9/.tmux.conf#L1) config file and [update the profile of iTerm2](https://stackoverflow.com/questions/12865559/leaving-tmux-scrollback-in-terminal-iterm2) as following screenshot:
