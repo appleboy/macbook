@@ -141,6 +141,8 @@ See the [reference](http://osxdaily.com/2018/01/31/use-windows-pc-keyboard-mac-r
 chsh -s /bin/bash
 ```
 
+See [Use zsh as the default shell on your Mac](https://support.apple.com/en-us/HT208050)
+
 ### Tmux scrollback in terminal (iTerm2)
 
 You can copy my [.tmux.conf](https://github.com/appleboy/dotfiles/blob/5c6bd88915b6ba97c50ff9f6f7627d9ad1ff31d9/.tmux.conf#L1) config file and [update the profile of iTerm2](https://stackoverflow.com/questions/12865559/leaving-tmux-scrollback-in-terminal-iterm2) as following screenshot:
