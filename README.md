@@ -149,3 +149,11 @@ See [Use zsh as the default shell on your Mac](https://support.apple.com/en-us/H
 You can copy my [.tmux.conf](https://github.com/appleboy/dotfiles/blob/5c6bd88915b6ba97c50ff9f6f7627d9ad1ff31d9/.tmux.conf#L1) config file and [update the profile of iTerm2](https://stackoverflow.com/questions/12865559/leaving-tmux-scrollback-in-terminal-iterm2) as following screenshot:
 
 ![iterm2](./images/iterm2.png)
+
+### Native Sierra-tabs on VSCode
+
+See the [issue comment](https://github.com/microsoft/vscode/issues/76537#issuecomment-510070135)
+
+![vscode 01](./images/vscode_01.png)
+
+![vscode 02](./images/vscode_02.png)
