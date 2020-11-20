@@ -95,6 +95,7 @@ jq is a lightweight and flexible command-line JSON processor. [Try it online](ht
 * [Keka - the macOS file archiver](https://www.keka.io)
 * [Elmedia Player - Best media player for macOS](https://mac.eltima.com/elmediaplayer.html)
 * [Robo 3T - Mongodb Client](https://robomongo.org/download)
+* [Microsoft Remote Desktop](https://apps.apple.com/tw/app/microsoft-remote-desktop/id1295203466?mt=12)
 
 ## Tips
 
