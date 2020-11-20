@@ -157,3 +157,9 @@ See the [issue comment](https://github.com/microsoft/vscode/issues/76537#issueco
 ![vscode 01](./images/vscode_01.png)
 
 ![vscode 02](./images/vscode_02.png)
+
+### Change keyboard mapping for windows keyboard
+
+See the [solution](https://superuser.com/questions/158561/how-can-i-remap-windows-and-alt-keys-in-os-x/158568).
+
+![keyboard](./images/window_keyboard.png)
