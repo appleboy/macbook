@@ -164,3 +164,9 @@ See the [issue comment](https://github.com/microsoft/vscode/issues/76537#issueco
 See the [solution](https://superuser.com/questions/158561/how-can-i-remap-windows-and-alt-keys-in-os-x/158568).
 
 ![keyboard](./images/window_keyboard.png)
+
+### Change Hot keys in iTerm2
+
+Go to iTerm Preferences → Profiles, select your profile, then the Keys tab. Click Presets... and choose `Natural Text Editing`.
+
+![keyboard](./images/iterm2_hot_key.png)
