@@ -20,13 +20,13 @@ Add bash-completion to your `~/.bash_profile` or `.extra`
 
 ### [How to Change Screenshot Save Location](https://discussions.apple.com/docs/DOC-9081)
 
-1. create new folder in `Desktop`
+create new folder in `Desktop`
 
 ```bash
 mkdir ~/Desktop/screenshots/
 ```
 
-2. Copy and paste this command to the terminal window:
+Copy and paste this command to the terminal window:
 
 ```bash
 defaults write com.apple.screencapture location ~/Desktop/screenshots/
