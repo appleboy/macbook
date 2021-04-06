@@ -6,6 +6,14 @@ Some tips and command for MacOS.
 
 ## Command
 
+### Install Homebrew First
+
+See the [homepage](https://brew.sh/).
+
+```sh
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+```
+
 ### [Install Bash git completion](https://github.com/bobthecow/git-flow-completion/wiki/Install-Bash-git-completion)
 
 ```bash
