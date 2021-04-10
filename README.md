@@ -167,6 +167,10 @@ See the [issue comment](https://github.com/microsoft/vscode/issues/76537#issueco
 
 ![vscode 02](./images/vscode_02.png)
 
+See [Use tabs in windows on Mac](https://support.apple.com/guide/mac-help/use-tabs-in-windows-mchla4695cce/mac)
+
+![native tab](./images/native_tab.png)
+
 ### Change keyboard mapping for windows keyboard
 
 See the [solution](https://superuser.com/questions/158561/how-can-i-remap-windows-and-alt-keys-in-os-x/158568).
