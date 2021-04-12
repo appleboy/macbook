@@ -83,7 +83,7 @@ jq is a lightweight and flexible command-line JSON processor. [Try it online](ht
 
 * [GraphQL IDE for better development workflows](https://github.com/prisma/graphql-playground)
 * [Visual Studio Code](https://code.visualstudio.com)
-* [SSH Tunnel Manager](https://www.tynsoe.org/v2/stm/)
+* [SSH Tunnel Manager](https://www.tynsoe.org/stm/)
 * [Elegant Facebook Messenger desktop app](https://github.com/sindresorhus/caprine)
 * [Discord App](https://discordapp.com/)
 * [Gitter is a chat and networking platform](https://gitter.im/)
