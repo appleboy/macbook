@@ -90,7 +90,7 @@ jq is a lightweight and flexible command-line JSON processor. [Try it online](ht
 * [Docker for Mac](https://docs.docker.com/docker-for-mac/install/)
 * [Wechat in China](https://www.wechat.com/en/)
 * [Google Chrome](https://www.google.com/chrome/)
-* [Telegram Messenger](https://telegram.org/)
+* [Telegram Desktop Messenger](https://github.com/telegramdesktop/tdesktop)
 * [iTerm2 is a replacement for Terminal and the successor to iTerm](https://www.iterm2.com/downloads.html)
 * [Evernote skitch](https://evernote.com/intl/en/products/skitch)
 * [MPlayer OSX Extended video player](https://github.com/sttz/MPlayer-OSX-Extended)
@@ -104,6 +104,7 @@ jq is a lightweight and flexible command-line JSON processor. [Try it online](ht
 * [Elmedia Player - Best media player for macOS](https://mac.eltima.com/elmediaplayer.html)
 * [Robo 3T - Mongodb Client](https://robomongo.org/download)
 * [Microsoft Remote Desktop](https://apps.apple.com/tw/app/microsoft-remote-desktop/id1295203466?mt=12)
+* [Security-first diagramming for teams.](https://www.diagrams.net/)
 
 ## Tips
 
