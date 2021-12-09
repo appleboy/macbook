@@ -185,3 +185,8 @@ See the [solution](https://superuser.com/questions/158561/how-can-i-remap-window
 Go to iTerm Preferences → Profiles, select your profile, then the Keys tab. Click Presets... and choose `Natural Text Editing`. See tbe [reference](https://apple.stackexchange.com/questions/136928/using-alt-cmd-right-left-arrow-in-iterm).
 
 ![keyboard](./images/iterm2_hot_key.png)
+
+### Turn on three finger drag for your Mac trackpad
+
+![drag01](./images/three-finger-drag-01.png)
+![drag02](./images/three-finger-drag-02.png)
