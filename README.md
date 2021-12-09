@@ -2,7 +2,7 @@
 
 Some tips and command for MacOS.
 
-![macos](./images/macos.png)
+![macos](./images/apple_mac_m1.png)
 
 ## Command
 
