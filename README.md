@@ -107,6 +107,7 @@ jq is a lightweight and flexible command-line JSON processor. [Try it online](ht
 * [Security-first diagramming for teams.](https://www.diagrams.net/)
 * [Mipony - Mipony, your download manager](https://www.mipony.net/en/)
 * [IINA - The modern media player for macOS](https://iina.io/)
+* [Fig adds IDE-style autocomplete to your existing terminal. Move faster with Fig.](https://fig.io/)
 
 ## Tips
 
