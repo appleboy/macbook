@@ -45,8 +45,8 @@ defaults write com.apple.screencapture location ~/Desktop/screenshots/
 Use [brew](http://brew.sh/) and [cask](https://caskroom.github.io/): Not officially supported, might install outdated version
 
 ```bash
-brew tap caskroom/fonts
-brew cask install font-fira-code
+brew tap homebrew/cask-fonts
+brew install font-fira-code --cask
 ```
 
 screenshot: see the `!=` symbol
