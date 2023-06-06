@@ -193,3 +193,7 @@ Go to iTerm Preferences → Profiles, select your profile, then the Keys tab. Cl
 
 ![drag01](./images/three-finger-drag-01.png)
 ![drag02](./images/three-finger-drag-02.png)
+
+### Change Spodlight shortcut key
+
+![spotlight](./images/spotlight.png)
