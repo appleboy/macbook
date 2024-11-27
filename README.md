@@ -63,11 +63,11 @@ scutil --set HostName <new host name>
 
 ### Main font-bundle for sketch icon-font plugin
 
-* FontAwesome
-* Material Design Icons
-* Ion Icons
-* Simple Line Icons (@bohn002)
-* Ant Design Icons
+- FontAwesome
+- Material Design Icons
+- Ion Icons
+- Simple Line Icons (@bohn002)
+- Ant Design Icons
 
 See the [detail](https://github.com/keremciu/font-bundles)
 
@@ -81,35 +81,35 @@ jq is a lightweight and flexible command-line JSON processor. [Try it online](ht
 
 ## IDE
 
-* [GraphQL IDE for better development workflows](https://github.com/prisma/graphql-playground)
-* [Visual Studio Code](https://code.visualstudio.com)
-* [SSH Tunnel Manager](https://www.tynsoe.org/stm/)
-* [Elegant Facebook Messenger desktop app](https://github.com/sindresorhus/caprine)
-* [Discord App](https://discordapp.com/)
-* [Gitter is a chat and networking platform](https://gitter.im/)
-* [Docker for Mac](https://docs.docker.com/docker-for-mac/install/)
-* [Wechat in China](https://www.wechat.com/en/)
-* [Google Chrome](https://www.google.com/chrome/)
-* [Telegram Desktop Messenger](https://github.com/telegramdesktop/tdesktop)
-* [iTerm2 is a replacement for Terminal and the successor to iTerm](https://www.iterm2.com/downloads.html)
-* [Evernote skitch](https://evernote.com/intl/en/products/skitch)
-* [MPlayer OSX Extended video player](https://github.com/sttz/MPlayer-OSX-Extended)
-* [Universal Database Tool: DBeaver Community](https://dbeaver.io/)
-* [Phiewer is the easiest and fastest way to view your images](https://phiewer.com/)
-* [FileZilla Client not only supports FTP, but also FTP over TLS (FTPS) and SFTP](https://filezilla-project.org/)
-* [Project discussions: Slack](https://slack.com/)
-* [Postman](https://www.getpostman.com/downloads/)
-* [TablePlus - native app which helps you easily edit database data and structure](https://github.com/TablePlus/TablePlus)
-* [Keka - the macOS file archiver](https://www.keka.io)
-* [Elmedia Player - Best media player for macOS](https://www.elmedia-video-player.com/)
-* [Robo 3T - Mongodb Client](https://robomongo.org/download)
-* [Microsoft Remote Desktop](https://apps.apple.com/tw/app/microsoft-remote-desktop/id1295203466?mt=12)
-* [Security-first diagramming for teams.](https://www.diagrams.net/)
-* [Mipony - Mipony, your download manager](https://www.mipony.net/en/)
-* [IINA - The modern media player for macOS](https://iina.io/)
-* [Fig adds IDE-style autocomplete to your existing terminal. Move faster with Fig.](https://fig.io/)
-* [AppCleaner is a small application which allows you to thoroughly uninstall unwanted apps.](https://freemacsoft.net/appcleaner/)
-* [MacWhisper - Quickly and easily transcribe audio files into text with OpenAI's state-of-the-art transcription technology Whisper](https://goodsnooze.gumroad.com/l/macwhisper)
+- [GraphQL IDE for better development workflows](https://github.com/prisma/graphql-playground)
+- [Visual Studio Code](https://code.visualstudio.com)
+- [SSH Tunnel Manager](https://www.tynsoe.org/stm/)
+- [Elegant Facebook Messenger desktop app](https://github.com/sindresorhus/caprine)
+- [Discord App](https://discordapp.com/)
+- [Gitter is a chat and networking platform](https://gitter.im/)
+- [Docker for Mac](https://docs.docker.com/docker-for-mac/install/)
+- [Wechat in China](https://www.wechat.com/en/)
+- [Google Chrome](https://www.google.com/chrome/)
+- [Telegram Desktop Messenger](https://github.com/telegramdesktop/tdesktop)
+- [iTerm2 is a replacement for Terminal and the successor to iTerm](https://www.iterm2.com/downloads.html)
+- [Evernote skitch](https://evernote.com/intl/en/products/skitch)
+- [MPlayer OSX Extended video player](https://github.com/sttz/MPlayer-OSX-Extended)
+- [Universal Database Tool: DBeaver Community](https://dbeaver.io/)
+- [Phiewer is the easiest and fastest way to view your images](https://phiewer.com/)
+- [FileZilla Client not only supports FTP, but also FTP over TLS (FTPS) and SFTP](https://filezilla-project.org/)
+- [Project discussions: Slack](https://slack.com/)
+- [Postman](https://www.getpostman.com/downloads/)
+- [TablePlus - native app which helps you easily edit database data and structure](https://github.com/TablePlus/TablePlus)
+- [Keka - the macOS file archiver](https://www.keka.io)
+- [Elmedia Player - Best media player for macOS](https://www.elmedia-video-player.com/)
+- [Robo 3T - Mongodb Client](https://robomongo.org/download)
+- [Microsoft Remote Desktop](https://apps.apple.com/tw/app/microsoft-remote-desktop/id1295203466?mt=12)
+- [Security-first diagramming for teams.](https://www.diagrams.net/)
+- [Mipony - Mipony, your download manager](https://www.mipony.net/en/)
+- [IINA - The modern media player for macOS](https://iina.io/)
+- [Fig adds IDE-style autocomplete to your existing terminal. Move faster with Fig.](https://fig.io/)
+- [AppCleaner is a small application which allows you to thoroughly uninstall unwanted apps.](https://freemacsoft.net/appcleaner/)
+- [MacWhisper - Quickly and easily transcribe audio files into text with OpenAI's state-of-the-art transcription technology Whisper](https://goodsnooze.gumroad.com/l/macwhisper)
 
 ## Tips
 
@@ -197,3 +197,32 @@ Go to iTerm Preferences → Profiles, select your profile, then the Keys tab. Cl
 ### Change Spodlight shortcut key
 
 ![spotlight](./images/spotlight.png)
+
+### Jump between words in a bash command
+
+In iTerm2, if you want to use `Option + Right Arrow` to jump between words in a bash command, you can set it up as follows:
+
+1. Open iTerm2.
+2. In the top menu, select `iTerm2` -> `Preferences`.
+3. In the Preferences window, select the `Profiles` tab.
+4. On the left side, select the profile you are using (usually `Default`).
+5. Select the `Keys` sub-tab.
+6. Click the `+` button at the bottom right to add a new key binding.
+7. In the pop-up window, set it as follows:
+   - `Keyboard Shortcut`: Press `Option + Right Arrow`.
+   - `Action`: Select `Send Escape Sequence`.
+   - `Esc+`: Enter `f`.
+
+This way, when you press `Option + Right Arrow`, iTerm2 will send `Esc+f`, which in bash will move to the beginning of the next word.
+
+Similarly, you can set `Option + Left Arrow` to jump to the beginning of the previous word:
+
+1. Repeat the above steps, click the `+` button to add a new key binding.
+2. In the pop-up window, set it as follows:
+   - `Keyboard Shortcut`: Press `Option + Left Arrow`.
+   - `Action`: Select `Send Escape Sequence`.
+   - `Esc+`: Enter `b`.
+
+This way, when you press `Option + Left Arrow`, iTerm2 will send `Esc+b`, which in bash will move to the beginning of the previous word.
+
+After completing these settings, you should be able to use `Option + Right Arrow` and `Option + Left Arrow` to jump between words in bash commands in iTerm2.
