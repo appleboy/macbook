@@ -1,5 +1,7 @@
 # Macbook tips
 
+**English** | [繁體中文](./README.zh-tw.md) | [简体中文](./README.zh-cn.md)
+
 ## Table of Contents
 
 - [Macbook tips](#macbook-tips)
