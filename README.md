@@ -1,26 +1,92 @@
 # Macbook tips
 
-Some tips and command for MacOS.
+## Table of Contents
 
-![macos](./images/apple_mac_m1.png)
+- [Macbook tips](#macbook-tips)
+  - [Table of Contents](#table-of-contents)
+  - [Commands](#commands)
+    - [Install Homebrew](#install-homebrew)
+    - [Install Bash Git Completion](#install-bash-git-completion)
+    - [How to Change Screenshot Save Location](#how-to-change-screenshot-save-location)
+    - [Monospaced font with programming ligatures: FiraCode](#monospaced-font-with-programming-ligatures-firacode)
+    - [Setting the Mac hostname or computer name from the terminal](#setting-the-mac-hostname-or-computer-name-from-the-terminal)
+    - [Main font-bundle for sketch icon-font plugin](#main-font-bundle-for-sketch-icon-font-plugin)
+    - [Install jq command](#install-jq-command)
+  - [Recommended Applications \& IDEs](#recommended-applications--ides)
+  - [Tips](#tips)
+    - [Show all filename extensions in `Finder`](#show-all-filename-extensions-in-finder)
+    - [How to change the ScreenShot Keyboard Shortcut](#how-to-change-the-screenshot-keyboard-shortcut)
+    - [Change the Shell in Mac OS X Terminal](#change-the-shell-in-mac-os-x-terminal)
+    - [Using a Windows PC Keyboard on Mac with Remapped Windows \& ALT Keys](#using-a-windows-pc-keyboard-on-mac-with-remapped-windows--alt-keys)
+    - [Change default shell in terminal (iTerm2)](#change-default-shell-in-terminal-iterm2)
+    - [Tmux scrollback in terminal (iTerm2)](#tmux-scrollback-in-terminal-iterm2)
+    - [Native Sierra-tabs on VSCode](#native-sierra-tabs-on-vscode)
+    - [Change keyboard mapping for windows keyboard](#change-keyboard-mapping-for-windows-keyboard)
+    - [Change Hot keys in iTerm2](#change-hot-keys-in-iterm2)
+    - [Turn on three finger drag for your Mac trackpad](#turn-on-three-finger-drag-for-your-mac-trackpad)
+    - [Change Spodlight shortcut key](#change-spodlight-shortcut-key)
+    - [Jump between words in a bash command](#jump-between-words-in-a-bash-command)
+  - [Troubleshooting](#troubleshooting)
+  - [Contributing](#contributing)
 
-## Command
+A curated collection of practical commands, tips, and tools for MacOS users.
 
-### Install Homebrew First
+This guide is designed for:
 
-See the [homepage](https://brew.sh/).
+- **Power users** and developers seeking shortcuts, automation, and enhanced productivity on macOS.
+- **New users** wanting to discover key utilities and improve their workflow.
+- Anyone looking for trustworthy recommendations on setup, configuration, and essential software.
+
+**How to use this guide:**
+
+1. Use the [Table of Contents](#table-of-contents) above to browse sections quickly.
+2. Each command or tip includes context and purpose—read before you copy!
+3. External links and references provide deeper learning and troubleshooting help.
+4. Visuals illustrate step-by-step actions wherever possible.
+
+Feel free to contribute improvements or suggest new tips to keep this document up-to-date for all Macbook users!
+
+![Screenshot of Apple MacBook M1 hardware](./images/apple_mac_m1.png)
+*Apple MacBook M1 – sleek design and performance for macOS users*
+
+## Commands
+
+### Install Homebrew
+
+Visit the [Homebrew homepage](https://brew.sh/) for details — official installation instructions and documentation.
+
+**Purpose:** Homebrew is an essential package manager for macOS, allowing you to install apps and developer tools from the command line.
+
+**How to install:**
+
+1. Open your Terminal.
+2. Run the following command (requires permission to install software):
 
 ```sh
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 ```
 
-### [Install Bash git completion](https://github.com/bobthecow/git-flow-completion/wiki/Install-Bash-git-completion)
+*After installation, verify by running `brew --version`.*
+
+---
+
+### Install Bash Git Completion
+
+**Purpose:** Enable tab completion for Git commands in Bash, improving workflow speed.
+
+**How to install:**
+
+1. Make sure Homebrew is already installed.
+2. Run:
 
 ```bash
 brew install git bash-completion
 ```
 
-Add bash-completion to your `~/.bash_profile` or `.extra`
+*Enables both Git and Bash tab completion.*
+
+**Further setup:**
+To activate bash-completion when opening new terminals, add this line to your `~/.bash_profile` or `.extra` config file:
 
 ```bash
 [ -f /usr/local/etc/bash_completion ] && . /usr/local/etc/bash_completion
@@ -79,39 +145,40 @@ jq is a lightweight and flexible command-line JSON processor. [Try it online](ht
 
 ![jq_command](./images/jq_command.png)
 
-## IDE
+## Recommended Applications & IDEs
 
-- [GraphQL IDE for better development workflows](https://github.com/prisma/graphql-playground)
-- [Visual Studio Code](https://code.visualstudio.com)
-- [SSH Tunnel Manager](https://www.tynsoe.org/stm/)
-- [Elegant Facebook Messenger desktop app](https://github.com/sindresorhus/caprine)
-- [Discord App](https://discordapp.com/)
-- [Gitter is a chat and networking platform](https://gitter.im/)
-- [Docker for Mac](https://docs.docker.com/docker-for-mac/install/)
-- [Wechat in China](https://www.wechat.com/en/)
-- [Google Chrome](https://www.google.com/chrome/)
-- [Telegram Desktop Messenger](https://github.com/telegramdesktop/tdesktop)
-- [iTerm2 is a replacement for Terminal and the successor to iTerm](https://www.iterm2.com/downloads.html)
-- [Evernote skitch](https://evernote.com/intl/en/products/skitch)
-- [MPlayer OSX Extended video player](https://github.com/sttz/MPlayer-OSX-Extended)
-- [Universal Database Tool: DBeaver Community](https://dbeaver.io/)
-- [Phiewer is the easiest and fastest way to view your images](https://phiewer.com/)
-- [FileZilla Client not only supports FTP, but also FTP over TLS (FTPS) and SFTP](https://filezilla-project.org/)
-- [Project discussions: Slack](https://slack.com/)
-- [Postman](https://www.getpostman.com/downloads/)
-- [TablePlus - native app which helps you easily edit database data and structure](https://github.com/TablePlus/TablePlus)
-- [Keka - the macOS file archiver](https://www.keka.io)
-- [Elmedia Player - Best media player for macOS](https://www.elmedia-video-player.com/)
-- [Robo 3T - Mongodb Client](https://robomongo.org/download)
-- [Microsoft Remote Desktop](https://apps.apple.com/tw/app/microsoft-remote-desktop/id1295203466?mt=12)
-- [Security-first diagramming for teams.](https://www.diagrams.net/)
-- [Mipony - Mipony, your download manager](https://www.mipony.net/en/)
-- [IINA - The modern media player for macOS](https://iina.io/)
-- [Fig adds IDE-style autocomplete to your existing terminal. Move faster with Fig.](https://fig.io/)
-- [AppCleaner is a small application which allows you to thoroughly uninstall unwanted apps.](https://freemacsoft.net/appcleaner/)
-- [MacWhisper - Quickly and easily transcribe audio files into text with OpenAI's state-of-the-art transcription technology Whisper](https://goodsnooze.gumroad.com/l/macwhisper)
-- [Mounty for NTFS - Easily enable write access to NTFS drives on macOS](https://mounty.app/)  
-  Simple utility to mount NTFS volumes in read/write mode on your Mac. Free and lightweight.
+A curated list of productivity, development, and utility apps for macOS:
+
+- [GraphQL Playground](https://github.com/prisma/graphql-playground) — Powerful GraphQL IDE for better development workflows.
+- [Visual Studio Code](https://code.visualstudio.com) — Popular open-source code editor.
+- [SSH Tunnel Manager](https://www.tynsoe.org/stm/) — Simplifies SSH tunnel setup.
+- [Caprine](https://github.com/sindresorhus/caprine) — Elegant Facebook Messenger desktop client.
+- [Discord](https://discordapp.com/) — Voice, video, and text chat for communities and developers.
+- [Gitter](https://gitter.im/) — Chat and networking platform for devs.
+- [Docker for Mac](https://docs.docker.com/docker-for-mac/install/) — Container platform for development.
+- [WeChat](https://www.wechat.com/en/) — Messaging popular in Asia.
+- [Google Chrome](https://www.google.com/chrome/) — Reliable web browser.
+- [Telegram Desktop Messenger](https://github.com/telegramdesktop/tdesktop) — Secure messaging app.
+- [iTerm2](https://www.iterm2.com/downloads.html) — Advanced replacement for the default Terminal.
+- [Evernote Skitch](https://evernote.com/intl/en/products/skitch) — Screenshot and markup tool.
+- [MPlayer OSX Extended](https://github.com/sttz/MPlayer-OSX-Extended) — Feature-rich media player.
+- [DBeaver Community](https://dbeaver.io/) — Universal database tool.
+- [Phiewer](https://phiewer.com/) — Fast and easy image viewer.
+- [FileZilla Client](https://filezilla-project.org/) — Supports FTP, FTPS, SFTP.
+- [Slack](https://slack.com/) — Team and project discussions.
+- [Postman](https://www.getpostman.com/downloads/) — API client.
+- [TablePlus](https://github.com/TablePlus/TablePlus) — Database management tool.
+- [Keka](https://www.keka.io) — File archiver.
+- [Elmedia Player](https://www.elmedia-video-player.com/) — Alternative macOS media player.
+- [Robo 3T](https://robomongo.org/download) — MongoDB desktop client.
+- [Microsoft Remote Desktop](https://apps.apple.com/tw/app/microsoft-remote-desktop/id1295203466?mt=12) — Remote access to Windows computers.
+- [Diagrams.net](https://www.diagrams.net/) — Security-first diagramming for teams.
+- [Mipony](https://www.mipony.net/en/) — Download manager.
+- [IINA](https://iina.io/) — Modern macOS media player.
+- [Fig](https://fig.io/) — IDE-style autocomplete for your terminal.
+- [AppCleaner](https://freemacsoft.net/appcleaner/) — Thorough app uninstaller.
+- [MacWhisper](https://goodsnooze.gumroad.com/l/macwhisper) — Fast AI-based audio transcription.
+- [Mounty for NTFS](https://mounty.app/) — Enables write access to NTFS drives on macOS (Free and lightweight).
 
 ## Tips
 
@@ -119,31 +186,37 @@ jq is a lightweight and flexible command-line JSON processor. [Try it online](ht
 
 See the following screenshots:
 
-![finder](./images/finder.png)
+![Screenshot of Finder with filename extensions visible](./images/finder.png)
+*Finder window showing filename extensions enabled in macOS*
 
 ### How to change the ScreenShot Keyboard Shortcut
 
-You can see the [reference](https://www.wikihow.com/Change-the-Keyboard-Shortcut-for-a-Mac-Screenshot).
+See [WikiHow: Change Screenshot Shortcut](https://www.wikihow.com/Change-the-Keyboard-Shortcut-for-a-Mac-Screenshot) for step-by-step customization instructions.
 
-![shortcut_001](./images/shortcut_001.png)
+![Screenshot of macOS keyboard shortcut settings for screenshots](./images/shortcut_001.png)
+*macOS settings dialog for changing screenshot keyboard shortcuts*
 
-![shortcut_002](./images/shortcut_002.png)
+![Screenshot: Additional screenshot shortcut key options in macOS](./images/shortcut_002.png)
+*Other screenshot shortcut options available in macOS settings*
 
 ### Change the Shell in Mac OS X Terminal
 
-You can see the [reference](http://osxdaily.com/2012/03/21/change-shell-mac-os-x/).
+More details in [OSXDaily: Change Shell on Mac OS X](http://osxdaily.com/2012/03/21/change-shell-mac-os-x/).
 
 open the `terminal` app and select the `preferences`
 
-![terminal_001](./images/terminal_001.png)
+![Mac Terminal Preferences window screenshot](./images/terminal_001.png)
+*Selecting preferences in the macOS Terminal app*
 
-![terminal_002](./images/terminal_002.png)
+![Screenshot: macOS Terminal app profile settings](./images/terminal_002.png)
+*Changing Terminal profiles and shell options in preferences*
 
 ### Using a Windows PC Keyboard on Mac with Remapped Windows & ALT Keys
 
-See the [reference](http://osxdaily.com/2018/01/31/use-windows-pc-keyboard-mac-remap-option-command-keys/)
+See [OSXDaily: Remap Option/Command Keys](http://osxdaily.com/2018/01/31/use-windows-pc-keyboard-mac-remap-option-command-keys/) — guidance on using Windows keyboards and adjusting mappings in macOS.
 
-![keyboard_01](./images/keyboard_01.png)
+![Mac system keyboard mapping dialog for Windows keyboard](./images/keyboard_01.png)
+*Mapping Windows and ALT keys to Command and Option in macOS system settings*
 
 1. Select your windows keyboard.
 2. Click the dropdown next to `OPTION Key` and select `Command`
@@ -228,3 +301,30 @@ Similarly, you can set `Option + Left Arrow` to jump to the beginning of the pre
 This way, when you press `Option + Left Arrow`, iTerm2 will send `Esc+b`, which in bash will move to the beginning of the previous word.
 
 After completing these settings, you should be able to use `Option + Right Arrow` and `Option + Left Arrow` to jump between words in bash commands in iTerm2.
+
+---
+
+## Troubleshooting
+
+If you encounter issues while following these tips or installing software:
+
+- **Permissions errors:** Try running commands with `sudo` if appropriate, or check your user’s access rights.
+- **Missing dependencies:** Ensure you have the latest version of macOS and Xcode command line tools (`xcode-select --install`).
+- **Homebrew not found:** Reinstall using the latest [official guide](https://brew.sh/) and restart your terminal.
+- **Command not found:** Double-check spelling and package installation status (e.g., `brew list`).
+- For tool-specific issues, consult the linked official documentation in each section.
+
+Feel free to [open an issue](https://github.com/appleboy/macbook/issues) or contact the project maintainer for additional help.
+
+---
+
+## Contributing
+
+Contributions and suggestions are welcome!
+
+- Fork this repository and submit a pull request with improvements.
+- Review open issues or propose new tips for Macbook users.
+- Ensure all new documentation is clear, concise, and uses consistent formatting.
+- All contributors will be credited in release notes and documentation history.
+
+Thank you for helping improve this guide for everyone!
