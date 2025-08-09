@@ -110,6 +110,8 @@ jq is a lightweight and flexible command-line JSON processor. [Try it online](ht
 - [Fig adds IDE-style autocomplete to your existing terminal. Move faster with Fig.](https://fig.io/)
 - [AppCleaner is a small application which allows you to thoroughly uninstall unwanted apps.](https://freemacsoft.net/appcleaner/)
 - [MacWhisper - Quickly and easily transcribe audio files into text with OpenAI's state-of-the-art transcription technology Whisper](https://goodsnooze.gumroad.com/l/macwhisper)
+- [Mounty for NTFS - Easily enable write access to NTFS drives on macOS](https://mounty.app/)  
+  Simple utility to mount NTFS volumes in read/write mode on your Mac. Free and lightweight.
 
 ## Tips
 
